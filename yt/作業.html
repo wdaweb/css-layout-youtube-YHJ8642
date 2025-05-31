@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .top {
+            margin: auto;
+            width: 75%;
+            height: 40px;
+            position: fixed;
+            left: 60%;
+            transform: translateX(-50%);
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .top input {
+            width: 80%;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+        .left {
+            float: left;
+            width: 240px;
+            position: fixed;
+        }
+
+        td {
+            width: 100%;
+            line-height: 30px;
+            text-align: center;
+            /* display: flex;
+            flex-direction: row */
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .c {
+            text-align: left;
+        }
+
+        .right {
+            width: 85%;
+            float: right;
+            padding: 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 10px;
+            text-align: center;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>s
+
+<body>
+    <div class="main">
+        <div class="top">
+            <input type="search" placeholder="搜尋">
+            <div><a href="#">🔔</a></div>
+            <div><a href="#">登入</a></div>
+        </div>
+        <div class="left">
+            <div class="menu">
+                <table>
+                    <tr>
+                        <td>
+                            <h2>☰</h2>
+                        </td>
+                        <td><a href="#"><img src="./images/螢幕擷取畫面 2025-05-30 235414.png" alt=""></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/1.png" alt=""></a></td>
+                        <td class="c"><a href="#">首頁</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/2.png" alt=""></a></td>
+                        <td class="c"><a href="#">Shorts</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/3.png" alt=""></a></td>
+                        <td class="c"><a href="#">訂閱內容</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/4.png" alt=""></a></td>
+                        <td class="c"><a href="#">觀看記錄</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/5.png" alt=""></a></td>
+                        <td class="c"><a href="#">播放清單</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/6.png" alt=""></a></td>
+                        <td class="c"><a href="#">你的影片</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/7.png" alt=""></a></td>
+                        <td class="c"><a href="#">稍後觀看</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><img src="./images/8.png" alt=""></a></td>
+                        <td class="c"><a href="#">喜歡的影片</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="right">
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=10">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=20">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=30">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=40">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=50">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=60">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=70">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=80">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=90">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=100">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=110">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=120">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=130">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=140">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=150">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=160">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=170">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200/?random=180">
+                <div class="info">
+                    <h4>標題</h4>
+                    <p>頻道名稱 觀看次數</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
